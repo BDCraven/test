@@ -1,0 +1,96 @@
+body {
+  font-family: arial;
+  margin:0;
+}
+.container {
+  max-width:1200px;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.title-h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: grey;
+}
+body > header > div > h1 {
+  background-color: rgba(158, 158, 158, 0.35);
+}
+body > header > div {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto; /* this is a more specific way to do margin-left */
+  margin: 0 auto 0 auto /* this is a more specific way to do margin-left */
+}
+body > header > div > img {
+  height: 50px;
+}
+body > header > nav > ul {
+  padding: 0;
+  margin: 0;
+  display:flex;
+  justify-content: space-around;
+}
+body > header > nav > ul > li {
+  list-style-type: none;
+}
+body > header > nav > ul > li:nth-of-type(2) > a {
+  color: orange;
+}
+body > header >nav > ul > li > a {
+  padding: 20px 0;
+  text-decoration: none;
+  display: inline-block;
+  color: blue;
+}
+.splashscreen {
+  background:lightblue;
+  background-image: url(https://coding-days.com/wp-content/uploads/2017/01/bgbleu.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: orange;
+}
+.splashscreen > article > img {
+  height: 150px;
+}
+.safe_elements {
+  overflow: hidden;
+}
+.safe_elements article {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding:40px;
+  box-sizing:border-box;
+}
+@media screen and (max-width: 400px){
+  .safe_elements article {
+  width: 100%;
+  }
+}
+.the_quote {
+  background-image: url(https://coding-days.com/wp-content/uploads/2017/01/bgbleu.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+}
+.the_quote > div > img {
+  border-radius: 50%;
+  height: 180px;
+}
