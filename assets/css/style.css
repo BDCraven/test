@@ -43,14 +43,15 @@ body > header > nav > ul {
 body > header > nav > ul > li {
   list-style-type: none;
 }
-body > header > nav > ul > li:nth-of-type(2) > a {
+body > header > nav > ul > li:nth-of-type(1) > a {
   color: orange;
 }
 body > header >nav > ul > li > a {
   padding: 20px 0;
   text-decoration: none;
   display: inline-block;
-  color: blue;
+  color: black;
+  font-size: 1.5rem;
 }
 .splashscreen {
   background:lightblue;
