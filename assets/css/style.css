@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: 'Muli', sans-serif;
   margin:0;
 }
 .container {
@@ -79,11 +79,6 @@ body > header >nav > ul > li > a {
   padding:40px;
   box-sizing:border-box;
 }
-@media screen and (max-width: 400px){
-  .safe_elements article {
-  width: 100%;
-  }
-}
 .the_quote {
   background-image: url(https://coding-days.com/wp-content/uploads/2017/01/bgbleu.png);
   display: flex;
@@ -96,4 +91,9 @@ body > header >nav > ul > li > a {
 .the_quote > div > img {
   border-radius: 50%;
   height: 180px;
+}
+@media screen and (max-width: 600px){
+  .safe_elements article {
+  width: 100%;
+  }
 }
