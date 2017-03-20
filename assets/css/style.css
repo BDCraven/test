@@ -92,6 +92,31 @@ body > header >nav > ul > li > a {
   border-radius: 50%;
   height: 180px;
 }
+.the_quote strong {
+  font-weight: 900;
+}
+.value_proposition > div > div > img {
+  height: 200px;
+  margin-top: 20px;
+  margin-right: 23px;
+}
+
+.value_proposition > div > div  {
+    display: flex;
+    align-items: center;
+}
+.testimonials > div > h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.testimonials > div > article {
+  display: flex;
+  text-align: right;
+}
+.testimonials > div > article > img {
+  border-radius: 50%;
+  height: 150px;
+}
 @media screen and (max-width: 600px){
   .safe_elements article {
   width: 100%;
